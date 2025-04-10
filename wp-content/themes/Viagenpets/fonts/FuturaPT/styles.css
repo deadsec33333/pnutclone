@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'FuturaPT-Book';
+  src: url('FuturaPT-Book.eot');
+  src: url('FuturaPT-Book.woff2') format('woff2'),
+       url('FuturaPT-Book.woff') format('woff'),
+       url('FuturaPT-Book.ttf') format('truetype'),
+       url('FuturaPT-Book.svg#FuturaPT-Book') format('svg'),
+       url('FuturaPT-Book%EF%B9%96.eot#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPT-Book';
+  src: url('FuturaPT-BookObl.eot');
+  src: url('FuturaPT-BookObl.woff2') format('woff2'),
+       url('FuturaPT-BookObl.woff') format('woff'),
+       url('FuturaPT-BookObl.ttf') format('truetype'),
+       url('FuturaPT-BookObl.svg#FuturaPT-BookObl') format('svg'),
+       url('FuturaPT-BookObl%EF%B9%96.eot#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FuturaPT-Book';
+  src: url('FuturaPT-Demi.eot');
+  src: url('FuturaPT-Demi.woff2') format('woff2'),
+       url('FuturaPT-Demi.woff') format('woff'),
+       url('FuturaPT-Demi.ttf') format('truetype'),
+       url('FuturaPT-Demi.svg#FuturaPT-Demi') format('svg'),
+       url('FuturaPT-Demi%EF%B9%96.eot#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaPT-Book';
+  src: url('FuturaPT-DemiObl.eot');
+  src: url('FuturaPT-DemiObl.woff2') format('woff2'),
+       url('FuturaPT-DemiObl.woff') format('woff'),
+       url('FuturaPT-DemiObl.ttf') format('truetype'),
+       url('FuturaPT-DemiObl.svg#FuturaPT-DemiObl') format('svg'),
+       url('FuturaPT-DemiObl%EF%B9%96.eot#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: italic;
+}

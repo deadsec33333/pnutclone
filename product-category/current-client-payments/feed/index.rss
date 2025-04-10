@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Current Client Payments Archives | Viagen Pets</title>
+	<atom:link href="https://www.viagenpets.com/product-category/current-client-payments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.viagenpets.com/product-category/current-client-payments/</link>
+	<description>Love the lasts forever</description>
+	<lastBuildDate>Thu, 22 Apr 2021 19:38:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
+	<item>
+		<title>Current Client Payments</title>
+		<link>https://www.viagenpets.com/product/current-client-payments/</link>
+		
+		<dc:creator><![CDATA[VP Editor]]></dc:creator>
+		<pubDate>Wed, 18 Nov 2015 20:12:42 +0000</pubDate>
+				<guid isPermaLink="false">https://viagen.com/?post_type=product&#038;p=699</guid>
+
+					<description><![CDATA[<p>If you are already a ViaGen Pets client, you may make payment on any invoice here, including storage fees for Genetic Preservation (GP).</p>
+<p>The post <a href="https://www.viagenpets.com/product/current-client-payments/">Current Client Payments</a> appeared first on <a href="https://www.viagenpets.com">Viagen Pets</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>If you are already a ViaGen Pets client, you may make payment on any invoice here, including storage fees for Genetic Preservation (GP)</p>
+<p>The post <a href="https://www.viagenpets.com/product/current-client-payments/">Current Client Payments</a> appeared first on <a href="https://www.viagenpets.com">Viagen Pets</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

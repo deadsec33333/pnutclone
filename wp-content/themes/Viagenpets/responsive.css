@@ -1,0 +1,672 @@
+/*		Desktop	 
+
+@media (min-width: 1400px) {
+	.container-fluid.site-container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+}
+*/
+/*		Medium Device	*/
+
+@media only screen and (max-width: 1199px) {
+	html, body{
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 42px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	h4 {
+		font-size: 22px;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	.header {
+		font-size: 18px;
+	}
+	.logo {
+		
+	}
+	.home-banner-content {
+		margin-top: 35px;
+		font-size: 20px;
+	}
+	.home-banner-content h1 {
+		font-size: 48px;
+		line-height: 60px;
+		margin-bottom: 10px;
+	}
+	ul.navbar-nav li a {
+		font-size: 24px;
+		margin: 0 14px;
+	}
+	ul.navbar-nav li ul.sub-menu {
+		width: 150px;
+	}
+	ul.navbar-nav li:last-child > ul.sub-menu {
+		right: -15px;
+	}
+	ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > a:after {
+		font-size: 16px;
+	}
+	ul.navbar-nav > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+		left: 150px;
+	}
+	ul.navbar-nav li ul.sub-menu li a {
+		font-size: 16px;
+		padding: 5px 7.5px;
+	}
+	.footer {
+		font-size: 16px;
+	}
+	.banner-section h1 {
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.footer h3,
+	.bottom-footer {
+		margin-top: 25px;
+	}
+	.footer h3 {
+		margin-bottom: 10px;
+	}
+	.social-media-icons i {
+		font-size: 20px;
+		height: 30px;
+		width: 30px;
+	}
+	.home-story-box h3 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	a.single-cta-box > h4 {
+		height: 60px;
+	}
+	.home-latest-post-section img {
+		height: 175px;
+		margin: 15px 0;
+	}
+	/* Sidebar Section */
+	.sidebar-section {
+		margin-top: 50px;
+	}
+	/* Submit Pet Story Page */
+	.submit-your-story-form {
+		width: 60%;
+	}
+	.submit-your-story-gallery {
+		width: 40%;
+	}
+}
+
+/* Small and Extra Small Screens */
+
+@media only screen and (max-width: 991px) {
+	.header {
+		margin: 15px 0;
+	}
+	.page-section {
+		padding: 25px 0;
+	}
+	h1 {
+		font-size: 36px;
+		margin-top: 48px;
+	}
+	h2 {
+		font-size: 32px;
+		margin-top: 32px;
+	}
+	h3 {
+		font-size: 24px;
+		margin-top: 28px;
+	}
+	h4 {
+		font-size: 22px;
+	}
+	h5 {
+		font-size: 18px;
+	}
+	img.custom-logo {
+		display: inline-block;
+		position: relative;
+		z-index: 9999;
+		max-width: 150px !important;
+    }
+    .logo {
+		margin: 0;
+    }
+	.header-phone {
+		position: absolute;
+		right: 85px;
+		z-index: 9;
+	}
+	.banner-section {
+		padding: 20% 0 10%;
+	}
+	.home-banner-content {
+		width: 65%;
+	}
+	.home-banner-content h1 {
+		font-size: 42px;
+		line-height: 50px;
+		margin-bottom: 5px;
+	}
+	.banner-section h1 {
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.nav-menu .navbar-header {
+		float: right;
+	}
+	.navbar-header .navbar-toggle {
+		border: 3px solid #2b5396;
+		display: block;
+		margin: 0;
+		padding: 11px;
+		background: #46d6fe;
+    }
+    .navbar-header .navbar-toggle.click-effect {
+		border: 0px solid transparent;
+		padding: 10px;
+    }
+	.navbar-header .navbar-toggle.click-effect span:nth-child(4).icon-bar {
+		background: transparent;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #fff;
+        width: 30px;
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 7px;
+        height: 4px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #fff;
+        height: 4px;
+        position: relative;
+        top: -1px;        
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #fff;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }    
+    .nav-menu {
+        position: absolute;
+        right: 15px;
+		left: 15px;
+        top: 0;
+    }
+    .navbar-collapse {
+        background-color: #2B5396;
+        top: 50px;
+        width: 100%;
+		right: 0;
+		z-index: 9;
+		overflow: auto;
+		position: absolute;
+		border: 0;
+		box-shadow: none;
+    }
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: visible;
+		display: block !important;
+	}
+	ul.navbar-nav {
+		display: inline-block;
+		width: 100%;
+		justify-content: normal;
+		margin: 0;
+		padding: 10px 0 !important;
+		float: left;
+	}
+	ul.navbar-nav li{
+        display: inline-block;
+        width: 100%;
+		padding: 5px 10px;
+		margin: 0;
+    }
+    ul.navbar-nav li a {
+		padding: 0;
+		margin: 5px 0;
+		display: inline-block;
+		font-size: 20px;
+		line-height: 20px;
+		color: #fff;
+    }
+	
+	/* Sub Menu */
+	
+	#menu-new-main-menu span.accordion-btn-wrap {
+		color: #fff;
+		top: 12.5px !important;
+	}
+	#menu-new-main-menu .sub-menu span.accordion-btn-wrap {
+		color: #ccc;
+		top: 8px !important;
+	}
+	
+	ul.navbar-nav li.menu-item-has-children:before {
+		display: none;
+	}
+	ul.navbar-nav > li.menu-item-has-children > a:after,
+	ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > a:after {
+		display: none;
+	}
+	ul.navbar-nav > li > ul.sub-menu:before {
+		display: none;
+	}
+	
+	ul.navbar-nav li ul.sub-menu,
+	ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding: 0;
+    }
+	ul.navbar-nav li:last-child > ul.sub-menu {
+		right: auto;
+	}
+	ul.navbar-nav li ul.sub-menu li {
+		padding: 0;
+		border-bottom: 0;
+	}
+    ul.navbar-nav li ul.sub-menu li a {
+        display: block;
+		font-size: 17px;
+		min-width: auto;
+		max-width: 100%;
+		padding: 5px 0 5px 30px;
+		border-bottom: 0;
+		text-align: left;
+		background: transparent;
+    }
+	
+	ul.navbar-nav li ul.sub-menu li a:hover{
+		background: transparent;
+		color: #1DCDFE;
+	}
+
+	/*#menu-main-menu .accordion-btn-wrap {
+		color: #fff;
+		top: 8px !important;
+	}
+	#menu-main-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children .accordion-btn-wrap {
+		top: 0 !important;
+	}*/
+	ul.navbar-nav li ul.sub-menu li a:before {
+		content: '\f101';
+		font-family: FontAwesome;
+		position: absolute;
+		left: 10px;
+		line-height: 20px;
+		display: inline-block;
+	}
+	
+	ul.navbar-nav > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+		position: static;
+	}
+	ul.navbar-nav > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li > a {
+		padding-left: 45px;
+	}
+	ul.navbar-nav > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li > a:before {
+		left: 30px;
+		content: '\f105';
+	}
+	
+	.row-eq-height {
+	  display: -webkit-block;
+	  display: -webkit-block;
+	  display: -ms-block;
+	  display:	block;
+	  flex-wrap: wrap;
+	}
+	.row-eq-height > [class*='col-'] {
+	  display: -webkit-block;
+	  display: -webkit-block;
+	  display: -ms-block;
+	  display:	block;
+	  flex-direction: column;
+	}
+	
+	.footer-about {
+		margin-right: 0;
+	}
+	.footer-our-services {
+		margin-left: 25px;
+	}
+	.footer .social-media-icons {
+		width: 25%;
+		margin: 0 auto;
+	}
+	.footer .social-media-icons h3 {
+		height: auto;
+	}
+	.social-media-icons i {
+		font-size: 25px;
+		height: 35px;
+		width: 35px;
+	}
+	.bottom-footer {
+		padding: 10px 0;
+	}
+	.bottom-footer-nav {
+		text-align: center;
+	}
+	.bottom-footer-nav ul li {
+		margin: 2px 7.5px;
+	}
+	.cpyryt {
+		text-align: center;
+		margin-top: 10px;
+	}
+	/* Sidebar Section */
+	.sidebar-section {
+		margin-top: 25px;
+	}
+	.home-story-box img {
+		height: 150px;
+	}
+	.content-in-two-cols p {
+		-webkit-column-count: auto;
+		-moz-column-count: auto;
+		column-count: auto;
+	}
+	/* Equine Page */
+	.equine-page-quote-section div >h4:first-child {
+		margin-top: 25px;
+	}
+	.equine-page-gallery img {
+		margin: 15px 0;
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.alignright,
+	.alignleft {
+		text-align: center;
+		margin: 20px;
+		display: inline-block;
+	}
+	a.single-cta-box {
+		padding: 20px;
+	}
+	a.single-cta-box > img {
+		height: 50px;
+	}
+	a.single-cta-box > h4 {
+		margin: 10px 0;
+	}
+	.home-latest-post-section > div > div > div:last-child {
+		display: none;
+	}
+	/* Submit Pet Story Page */
+	.submit-your-story-form {
+		width: 70%;
+	}
+	.submit-your-story-gallery {
+		width: 30%;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+	.alignright,
+	.alignleft {
+		float: none !important;
+		text-align: center !important;
+		margin: 10px auto !important;
+		display: block !important;
+	}
+	.row-eq-height {
+	  display: -webkit-block;
+	  display: -webkit-block;
+	  display: -ms-block;
+	  display:	block;
+	  flex-wrap: wrap;
+	}
+	.row-eq-height > [class*='col-'] {
+	  display: -webkit-block;
+	  display: -webkit-block;
+	  display: -ms-block;
+	  display:	block;
+	  flex-direction: column;
+	}
+	a.site-btn {
+		font-size: 16px;
+		line-height: 20px;
+		padding: 5px 10px;
+	}
+	.page-template-template-home .header {
+		position: static;
+	}
+	.logo {
+		width: 100%;
+    }
+	img.custom-logo {
+		max-width: 100px !important;
+	}
+	.top-header a {
+		font-size: 18px;
+	}
+	.top-header #emma-form {
+		margin-top: 15px;
+	}
+	.nav-menu {
+		top: -42px;
+    }
+	.footer-our-services {
+		margin-left: 0;
+	}
+	.footer .social-media-icons {
+		width: 50%;
+	}
+	.home-banner-content {
+		margin-top: 0;
+	}
+	.home-banner-content h1 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 5px;
+	}
+	home-banner-content p {
+		margin: 0 0 10px;
+	}
+	.home-story-box-container,
+	.home-latest-post-section,
+	.home-testimonials-section {
+		padding: 25px 0;
+	}
+	.home-story-box {
+		margin: 15px 0;
+	}
+	.home-cta-boxes {
+		margin-bottom: 0;
+		padding: 25px 0;
+	}
+	a.single-cta-box {
+		margin: 15px 0;
+		position: static;
+	}
+	a.single-cta-box > h4,
+	a.single-cta-box > p {
+		height: auto;
+	}
+	section.home-story-video-section {
+		padding: 45px 0 25px;
+	}
+	/* Submit Pet Story Page */
+	.submit-your-story-form {
+		width: 100%;
+	}
+	.submit-your-story-gallery {
+		width: 100%;
+	}
+	.submit-your-story-gallery img {
+		margin-bottom: 0;
+		margin-left: 0;
+		max-width: 50%;
+		width: 50%;
+		padding: 7.5px;
+	}
+	/* Single Story Page */
+	.single-story .entry img {
+		float: left;
+		width: 100%;
+		height: auto;
+		margin: 0 0 20px;
+	}
+	/* Shop Page */
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 100% !important;
+	}
+}
+
+
+/* Landscape View CSS */
+@media only screen and (orientation: landscape) and (max-width: 767px) {
+	.alignright,
+	.alignleft {
+		text-align: center;
+		margin: 20px;
+		display: inline-block;
+	}
+	.alignright {
+		float: right;
+	}
+	.alignleft {
+		float: left;
+	}
+	.top-header a {
+		font-size: 24px;
+	}
+	.top-header #emma-form {
+		margin-top: 0;
+	}
+	img.custom-logo {
+		max-width: 150px !important;
+	}
+	.footer-our-services {
+		margin-left: 25px;
+	}
+	.footer .col-sm-4 {
+		width: 33.33333333%;
+		float: left;
+	}
+	.footer .col-sm-4:after {
+		clear: both;
+	}
+	.footer .social-media-icons {
+		width: 25%;
+		margin: 0 auto;
+	}
+	.footer .social-media-icons .logo {
+		margin-top: 40px;
+	}
+	.bottom-footer .col-sm-4 {
+		width: 100%
+	}
+	a.site-btn {
+		font-size: 20x;
+		line-height: 1;
+		padding: 8px 16px;
+	}
+	.home-banner-content h1 {
+		font-size: 42px;
+		line-height: 50x;
+	}
+	home-banner-content p {
+		margin: 0 0 20px;
+	}
+	.home-testimonials-section .col-sm-6,
+	.home-story-box-container .col-sm-6,
+	.home-latest-post-section .col-sm-6 {
+		width: 50%;
+		float: left;
+	}
+	.home-testimonials-section .col-sm-6:after,
+	.home-story-box-container .col-sm-6:after,
+	.home-latest-post-section .col-sm-6:after {
+		clear: both;
+	}
+	.home-cta-boxes .col-sm-4,
+	section.home-story-video-section .col-sm-6 {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.home-latest-post-section > div > div > div:last-child {
+		display: none;
+	}
+	/* Submit Pet Story Page */
+	.submit-your-story-gallery img {
+		width: 20%;
+	}
+	/* Equine Page */
+	.equine-page-gallery .col-xs-6 {
+		width: 33.333%;
+	}
+	/* Pet and Equine Story Pages */
+	.pet-equine-story-page .row-eq-height {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.pet-equine-story-page .row-eq-height > .col-sm-6 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	/* Single Story Page */
+	.single-story .entry img {
+		float: left;
+		margin: 0 20px 5px 0;
+		width: auto;
+	}
+	/* Shop Page */
+	.woocommerce ul.products[class*=columns-] li.product,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 48% !important;
+	}
+}
