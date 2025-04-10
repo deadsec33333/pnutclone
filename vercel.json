@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/scientists-successfully-clone-squirrel-for-the-first-time-using-dna-from-central-parks-famous-pnut",
-        "destination": "/scientists-successfully-clone-squirrel-for-the-first-time-using-dna-from-central-parks-famous-pnut.html"
+        "source": "/scientists-successfully-clone-squirrel-for-the-first-time-using-dna-from-central-parks-famous-peanut",
+        "destination": "/scientists-successfully-clone-squirrel-for-the-first-time-using-dna-from-central-parks-famous-peanut.html"
       }
     ]
   }
